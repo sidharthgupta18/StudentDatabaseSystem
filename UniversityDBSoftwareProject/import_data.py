@@ -17,7 +17,7 @@ def import_excel_data():
         connection = mysql.connector.connect(
             host='localhost',
             user='root',
-            password='DATABASE PASSWORD',  # YOUR PASSWORD HERE
+            password='PASSWORD',  # YOUR PASSWORD HERE
             database='university_db'
         )
 
